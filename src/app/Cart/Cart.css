@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Viga&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Viga&display=swap');
+
+.name2 {
+    font-family: "Viga", sans-serif;
+     font-style :italic;
+    font-style: normal;
+    letter-spacing: 1px;
+    color: rgb(101, 97, 97);
+
+}
+.add{
+    font-family: "Viga", sans-serif;
+    font-weight: 400;
+color: rgb(39, 24, 24);
+    border: 1px solid rgb(168, 154, 154);
+    border-style: dashed;
+    
+    
+  }
+  .add:hover{
+    border: 1px solid rgb(68, 57, 57);
+    background-color: rgb(205, 232, 232);
+    -moz-transition: all 170ms ease-in;
+    /* WebKit */
+    -webkit-transition: all 170ms ease-in;
+    /* Opera */
+    -o-transition: all 170ms ease-in;
+    /* Standard */
+    transition: all 170ms ease-in;
+  }
+.price2{
+    font-weight: 700;
+    color: rgba(44, 46, 48, 0.888);
+    
+}
+.mainPrice2{
+  text-decoration  : line-through;
+  font-weight: 200;
+font-size: 17px;
+color: rgb(163, 152, 152);  
+}
+.image2{
+  filter: drop-shadow(rgb(145, 140, 140) 10px 10px 10px);
+  
+}
+.offer2{
+  background-color: rgb(183, 234, 183);
+  font-size: 15px;
+}

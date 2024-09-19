@@ -1,0 +1,66 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&display=swap');
+.bevarages{
+    color: rgba(177, 106, 106, 0.871);
+    font-family: "Saira Stencil One", sans-serif;
+}
+.heading{
+    color: rgba(111, 43, 43, 0.841);
+    font-family: "Saira Stencil One", sans-serif;
+
+}
+.main-img{
+    filter: drop-shadow(rgb(145, 140, 140) 1px 3px 10px);
+
+}
+.registerBtn{
+
+    letter-spacing: 1px;
+    
+border-radius: 5px;
+font-weight: 700;
+color: aliceblue;
+background: linear-gradient(90deg, rgba(255, 255, 0, 1) 0%, rgb(247, 93, 93) 0%, rgb(217, 206, 211) 120%) ;
+transition: all 0.2s ease-in-out;
+transform: scale(1);
+
+}
+.registerBtn:hover{
+
+    color: rgb(251, 253, 255);
+    background: linear-gradient(90deg, rgba(255, 255, 0, 1) 0%, rgb(232, 204, 204) 0%, rgb(227, 65, 65) 120%) ;
+border: 0px solid;
+transform: scale(1.10);
+}
+.orderBtn{
+    background: linear-gradient(90deg, rgba(255, 255, 0, 1) 0%, rgb(235, 111, 111) 0%, rgb(224, 205, 214) 120%) ;
+    transition: all 0.2s ease-in-out;
+    transform: scale(1);
+}
+.orderBtn:hover{
+    background: linear-gradient(90deg, #ffff00 0%, rgb(232, 204, 204) 0%, rgb(227, 65, 65) 120%) ;
+    transform: scale(1.04);
+}
+.LoginBtn{
+    transition: all 0.2s ease-in-out;
+    transform: scale(1);
+    font-family: "Alexandria", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    letter-spacing: 1px;
+    color: black;
+}
+.LoginBtn:hover{
+    transform: scale(1.07);
+    color: rgb(109, 106, 101);
+   
+    
+
+}
+.learn-more {
+    transition: all 0.2s ease-in-out;
+    transform: scale(1);
+}
+.learn-more:hover{
+    transform: scale(1.04);
+}

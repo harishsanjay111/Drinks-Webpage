@@ -1,0 +1,21 @@
+.Profile{
+    font-family: "Saira Stencil One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgba(196, 71, 25, 0.869);  
+}
+.profile-img{
+    border-radius:5px;
+}
+.save-btn{
+    font-family: "Saira Stencil One", sans-serif;
+    font-weight: 400; 
+    font-style: normal;
+    color: rgba(196, 71, 25, 0.869); 
+}
+label { 
+    @apply text-gray-500 text-sm  leading-tight 
+}
+label+input {
+     margin-top: -2px; 
+}

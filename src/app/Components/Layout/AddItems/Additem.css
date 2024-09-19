@@ -1,0 +1,27 @@
+.Quantity {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+  }
+  
+  .Quantity > div {
+    margin: 0 10px; /* Adjust spacing between buttons and quantity */
+  }
+  
+  .Quantity button {
+    padding: 5px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #ffffffd0;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+  
+  .Quantity button:hover {
+    background-color: #e0e0e0;
+  }
+  @media screen and (max-width: 768px) {
+    .Quantity button {
+      padding: 2px 20px;
+    }
+  }

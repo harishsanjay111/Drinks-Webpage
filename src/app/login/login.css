@@ -1,0 +1,25 @@
+.Register{
+    font-family: "Saira Stencil One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgba(196, 71, 25, 0.869);
+}
+input[type = "email"],
+input[type = "password"],
+input[type = "text"]{
+  @apply block w-full my-2 rounded-xl;
+  @apply border p-2 border-gray-300 bg-gray-100;
+}
+input[type = "email"]:disabled,
+input[type = "password"]:disabled,
+input[type = "text"]:disabled {
+  @apply bg-gray-700
+}
+  .register-btn{
+    
+    background: linear-gradient(90deg, rgba(255, 255, 0, 1) 0%, rgb(247, 93, 93) 0%, rgb(217, 206, 211) 120%) ;
+
+    color: aliceblue;
+    
+
+  }
